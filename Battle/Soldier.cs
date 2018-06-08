@@ -8,6 +8,7 @@ namespace Battle
         {
             ValidateNameisNotBlank(name);
             Name = name;
+
         }
 
         private void ValidateNameisNotBlank(string name)
